@@ -1,38 +1,40 @@
-<html>
+<!DOCTYPE html>
 
 <head>
+    <meta charset="utf-8">
+    <title>EntechSolutions - Front End Development Assessment</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
-    <main class="container">
-        <form class="form">
-            <div class="form__heading">
-                <h1>$167 still needed for this project</h1>
+    <form class="form">
+        <header class="form__header">
+            <h1><b>$167</b> still needed for this project</h1>
+        </header>
+
+        <main class="form__main">
+            <div class="form__bar">
+                <div class="form__bar-status"></div>
             </div>
-
-            <div class="form__bar"></div>
-
-            <div class="form__body">
-
-                <p><strong>Only 3 days left</strong> wefefwef</p>
-                <p>Joineoifjie</p>
-
-                <input type="text" vale="50">
-                <button type="submit">Give Now</button>
-
+            <div class="form__content">
+                <p><strong>Only 3 days left</strong> to fund this project.</p>
+                <p>Join the <b>42</b> other donors who have already supported this project. Every dollar helps.</p>
+                <div class="form__controls">
+                    <input type="text" value="50">
+                    <input type="submit" value="Give Now">
+                </div>
                 <a href="#">Why give $50?</a>
-
             </div>
-        </form>
-        <div class="">
-            <a href="#" class="btn">Save for later</a>
-            <a href="#" class="btn">Tell your friends</a>
-        </div>
+        </main>
 
-    </main>
+        <footer class="form__footer">
+            <a href="#" class="form__link">Save for later</a>
+            <a href="#" class="form__link">Tell your friends</a>
+        </footer>
+    </form>
+
 </body>
 
 </html>
