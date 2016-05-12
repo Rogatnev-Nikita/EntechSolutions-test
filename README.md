@@ -1,8 +1,4 @@
 # EntechSolutions-test
-Front End Development Assessment
-
-
-# OpticsPlanet-test
 <h4>Goal:</h4>
 <img src="img/design.png">
 
