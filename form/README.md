@@ -1,6 +1,7 @@
-# EntechSolutions-test
+# EntechSolutions-test (form)
 <h4>Goal:</h4>
-<img src="img/design.png">
-
+[![EntechSolutions][2]][1]
+  [1]: http://rogatnev-nikita.github.io/EntechSolutions-test/form
+  [2]: img/design.png (material design)
 <h4>Result:</h4>
-http://rogatnev-nikita.github.io/EntechSolutions-test
+http://rogatnev-nikita.github.io/EntechSolutions-test/form
