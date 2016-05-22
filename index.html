@@ -15,7 +15,7 @@
     <header class="header">
         <div class="header__container container">
             <div class="header__row row">
-                <div class="header__logo col-md-3">
+                <div class="header__logo col-xs-3">
                     <a href="index.html">
                         <svg width="133px" height="24px" viewBox="80 22 133 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <text id="logo" stroke="none" fill="none" font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" letter-spacing="1.42857158">
@@ -24,14 +24,19 @@
                         </svg>
                     </a>
                 </div>
-                <nav class="header__navigation col-md-9">
-                    <ul class="list-inline list-unstyled text-right">
+                <nav class="header__navigation text-right col-xs-9">
+                    <a href="#" class="header__mobile-navigation">
+                        <svg height="26px" id="mobile-navigation" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+                                fill="#FFFFFF"></path>
+                        </svg>
+                    </a>
+                    <ul class="header__desktop-navigation list-inline list-unstyled">
                         <li><a href="#">All events</a></li>
                         <li><a href="#">Store</a></li>
                         <li><a href="#">Membership</a></li>
                         <li><a href="#">Login</a></li>
-                        <li><a href="#" class="cart">Cart</a>
-                        </li>
+                        <li><a href="#" class="cart">Cart</a></li>
                     </ul>
                 </nav>
             </div>
@@ -44,7 +49,7 @@
                         <input type="text" placeholder="Location">
                         <input type="text" placeholder="From">
                         <input type="text" placeholder="To">
-                        <button type="submit" class="btn btn--primary">Search</button>
+                        <button type="submit" class="btn btn--primary btn--big">Search</button>
                     </form>
                 </div>
             </div>
@@ -395,7 +400,7 @@
                     </div>
                 </div>
                 <div class="subscribe__row row">
-                    <div class="col-md-6 col-md-offset-3">
+                    <div class="subscribe__form col-md-6 col-md-offset-3">
                         <form action="#" class="input-group">
                             <input type="email" placeholder="Your email" class="form-control">
                             <div class="input-group-btn">
