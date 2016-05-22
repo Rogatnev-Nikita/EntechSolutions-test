@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>EntechSolutions - Front End Development Assessment</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -15,6 +15,8 @@
     <header class="header">
         <div class="header__container container">
             <div class="header__row row">
+
+                <!-- LOGO -->
                 <div class="header__logo col-xs-3">
                     <a href="index.html">
                         <svg width="133px" height="24px" viewBox="80 22 133 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -24,6 +26,9 @@
                         </svg>
                     </a>
                 </div>
+                <!-- LOGO END -->
+
+                <!-- NAVIGATION -->
                 <nav class="header__navigation text-right col-xs-9">
                     <a href="#" class="header__mobile-navigation">
                         <svg height="26px" id="mobile-navigation" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -39,16 +44,20 @@
                         <li><a href="#" class="cart">Cart</a></li>
                     </ul>
                 </nav>
+                <!-- NAVIGATION END -->
+
             </div>
             <div class="header__row row text-center">
                 <div class="header__form col-md-12">
                     <h1>Burning Desire Golden Key</h1>
                     <h2>Motivation How To Build Trust At Work</h2>
                     <form action="#">
-                        <input type="text" placeholder="What are you looking for?">
-                        <input type="text" placeholder="Location">
-                        <input type="text" placeholder="From">
-                        <input type="text" placeholder="To">
+                        <fieldset>
+                            <input type="text" name="what" placeholder="What are you looking for?">
+                            <input type="text" name="location" placeholder="Location">
+                            <input type="text" name="from" placeholder="From">
+                            <input type="text" name="to" placeholder="To">
+                        </fieldset>
                         <button type="submit" class="btn btn--primary btn--big">Search</button>
                     </form>
                 </div>
@@ -63,11 +72,12 @@
         <!-- EVENTS -->
         <section class="events text-center">
             <div class="events__container container">
-
                 <div class="events__row row">
                     <h1>Recommend Events</h1>
                 </div>
                 <div class="events__catalog events__row row">
+
+                    <!-- EVENT ITEM -->
                     <div class="col-md-4">
                         <article class="events__item">
                             <header class="events__header">
@@ -89,6 +99,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
                     <div class="col-md-4">
                         <article class="events__item">
                             <header class="events__header">
@@ -110,6 +123,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
                     <div class="col-md-4">
                         <article class="events__item">
                             <header class="events__header">
@@ -131,8 +147,12 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- EVENT ITEM END -->
+
                 </div>
                 <div class="events__catalog events__row row">
+
+                    <!-- EVENT ITEM -->
                     <div class="col-md-4">
                         <article class="events__item">
                             <header class="events__header">
@@ -154,6 +174,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
                     <div class="col-md-4">
                         <article class="events__item">
                             <header class="events__header">
@@ -175,6 +198,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
                     <div class="col-md-4">
                         <article class="events__item">
                             <header class="events__header">
@@ -196,6 +222,8 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- EVENT ITEM END -->
+
                 </div>
                 <div class="events__row row">
                     <div class="col-md-12">
@@ -229,6 +257,8 @@
                     </div>
                 </div>
                 <div class="shop__catalog shop__row row">
+
+                    <!-- SHOP ITEM -->
                     <div class="col-md-4">
                         <article class="shop__item">
                             <header class="shop__header">
@@ -254,6 +284,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
                     <div class="col-md-4">
                         <article class="shop__item">
                             <header class="shop__header">
@@ -279,6 +312,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
                     <div class="col-md-4">
                         <article class="shop__item">
                             <header class="shop__header">
@@ -304,8 +340,12 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- SHOP ITEM END -->
+
                 </div>
                 <div class="shop__catalog shop__row row">
+
+                    <!-- SHOP ITEM -->
                     <div class="col-md-4">
                         <article class="shop__item">
                             <header class="shop__header">
@@ -331,6 +371,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
                     <div class="col-md-4">
                         <article class="shop__item">
                             <header class="shop__header">
@@ -356,6 +399,9 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
                     <div class="col-md-4">
                         <article class="shop__item">
                             <header class="shop__header">
@@ -381,6 +427,8 @@
                             </footer>
                         </article>
                     </div>
+                    <!-- SHOP ITEM END -->
+
                 </div>
                 <div class="shop__row row">
                     <div class="col-md-12">
@@ -420,9 +468,14 @@
     <footer class="footer container-fluid">
         <div class="footer__container container">
             <div class="footer__row row">
+
+                <!-- COPYRIGHT -->
                 <div class="footer__copyright col-md-12 col-lg-4">
                     <span>&copy; 2016 Eventgrid. All rights reserved</span>
                 </div>
+                <!-- COPYRIGHT END -->
+
+                <!-- FOOTER NAVIGATION -->
                 <div class="footer__navigation col-md-12 col-lg-8">
                     <ul class="list-inline list-unstyled text-right text-uppercase">
                         <li><a href="#">About us</a></li>
@@ -432,6 +485,8 @@
                         <li><a href="#" class="btn btn--primary visible-lg">Become a member</a></li>
                     </ul>
                 </div>
+                <!-- FOOTER NAVIGATION END -->
+
             </div>
         </div>
     </footer>
