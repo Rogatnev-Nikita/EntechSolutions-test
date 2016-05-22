@@ -149,9 +149,9 @@ h1 {
 .header__form input {
 	width: 187px;
 	margin: 0;
-	padding: 10px 15px;
+	padding: 10px 45px 10px 15px;
 
-	color: #f4655a;
+	color: #8f8f8f;
 	border: 0;
 	border-right: 1px solid #d2d2d2;
 	background: transparent;
@@ -308,7 +308,7 @@ h1 {
 
 	content: '';
 
-	background: url(../img/events/events-item__border.png) repeat-x;
+	background: url(../img/item__border.png) repeat-x;
 }
 .events__buy {
 	padding: 10px 10px 14px 20px;
@@ -512,7 +512,7 @@ h1 {
 
 	content: '';
 
-	background: url(../img/shop/shop-item__border.png) repeat-x;
+	background: url(../img/item__border.png) repeat-x;
 }
 .shop__buy {
 	padding: 10px 10px 14px 20px;
