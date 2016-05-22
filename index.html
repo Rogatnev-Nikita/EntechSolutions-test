@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>EntechSolutions - Front End Development Assessment</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -30,19 +30,22 @@
 
                 <!-- NAVIGATION -->
                 <nav class="header__navigation text-right col-xs-9">
-                    <a href="#" class="header__mobile-navigation">
-                        <svg height="26px" id="mobile-navigation" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
-                                fill="#FFFFFF"></path>
-                        </svg>
-                    </a>
-                    <ul class="header__desktop-navigation list-inline list-unstyled">
+
+                    <!-- MOBILE MENU -->
+                    <a href="#" class="header__mobile-navigation burger" id="burger"></a>
+                    <a href="#" class="header__mobile-navigation cart"></a>
+                    <!-- MOBILE MENU END -->
+
+                    <!-- GENERAL MENU -->
+                    <ul class="header__desktop-navigation list-inline list-unstyled" id="menu">
                         <li><a href="#">All events</a></li>
                         <li><a href="#">Store</a></li>
                         <li><a href="#">Membership</a></li>
                         <li><a href="#">Login</a></li>
                         <li><a href="#" class="cart">Cart</a></li>
                     </ul>
+                    <!-- GENERAL MENU END -->
+
                 </nav>
                 <!-- NAVIGATION END -->
 
@@ -491,6 +494,22 @@
         </div>
     </footer>
     <!-- FOOTER END -->
+
+    <!-- SCRIPTS -->
+    <script>
+        var menu = document.getElementById("menu");
+        var burger = document.getElementById("burger");
+        burger.onclick = function() {
+            event.preventDefault();
+            if (menu.classList.contains("visible")) {
+                menu.classList.remove("visible");
+            } else {
+                menu.classList.add("visible");
+            }
+        }
+    </script>
+    <!-- SCRIPTS END -->
+
 
 </body>
 
