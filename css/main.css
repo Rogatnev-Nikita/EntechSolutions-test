@@ -451,15 +451,59 @@ h1 {
 
 
 .footer {
-	padding: 30px 0 20px;
+	padding: 35px 0;
 
 	background: #292136;
+
+	font-weight: normal;
+}
+.footer__copyright {
+	margin-top: 20px;
+	padding-right: 55px;
+
+	text-align: right;
+}
+.footer__copyright span {
+	color: rgba(255, 255, 255, 0.54);
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+}
+.footer__navigation li {
+	margin: 0;
 }
 .footer__navigation a {
-	color: #ffffff;
+	margin-right: 20px;
+
+	color: rgba(255, 255, 255, 0.54);
+
+	font-size: 12px;
+	line-height: 1;
 }
 .footer__navigation a:hover {
 	text-decoration: none;
 
 	color: #f4655a;
+}
+.footer__navigation .btn {
+	margin: 0;
+	padding: 20px 28px;
+
+	color: #ffffff;
+
+	font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+	.footer__copyright,
+	.footer__navigation ul {
+		text-align: center;
+	}
+	.footer__navigation ul {
+		margin-top: 10px;
+	}
+	.footer__navigation li:last-child {
+		display: none;
+	}
 }
