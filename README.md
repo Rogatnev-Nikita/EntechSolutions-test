@@ -4,4 +4,4 @@
   [1]: http://rogatnev-nikita.github.io/EntechSolutions-test
   [2]: img/design/design_material.png (material design)
 <h4>Result:</h4>
-http://rogatnev-nikita.github.io/EntechSolutions-test
+http://rogatnev-nikita.github.io/EntechSolutions-test/
