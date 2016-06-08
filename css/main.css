@@ -369,6 +369,7 @@ h1 {
 	color: #ffffff;
 	background: #ffcc99 url(../img/membership/membership__bg.png) center center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .membership h1 {
 	font-size: 44px;
